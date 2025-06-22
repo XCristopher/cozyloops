@@ -62,21 +62,42 @@ body {
   
   /* ——— MEDIA QUERIES ——— */
   
+ 
+
+
+
   @media (max-width: 600px) {
-  nav ul {
-  flex-direction: column;
-  align-items: center;
-  }
+    nav {
+      font-size: 18px;
+      padding: 15px 5px;
+    }
   
-  main {
-  padding: 10px;
-  margin: 10px;
-  font-size: 1em;
-  }
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
   
-  header {
-  padding: 20px 10px;
-  }
+    header {
+      padding: 20px 10px;
+    }
+  
+    main {
+      padding: 10px;
+      margin: 10px;
+      font-size: 0.95em;
+    }
+  
+    .logo {
+      width: 200px;
+      height: 200px;
+      margin: 20px auto;
+    }
+  
+    footer {
+      font-size: 0.9em;
+      padding: 10px;
+    }
   }
 
 
