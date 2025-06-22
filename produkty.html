@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Produkty – Sklep z Włóczkami</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Strona główna</a></li>
+    <li><a href="produkty.html">Produkty</a></li>
+    <li><a href="o-nas.html">O nas</a></li>
+    <li><a href="dostawa.html">Dostawa i płatność</a></li>
+    <li><a href="kontakt.html">Kontakt</a></li>
+    <li><a href="koszyk.html">Koszyk</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+  <h1>Nasze Produkty</h1>
+  <div class="product-grid">
+    <div class="product">
+      <img src="11.jpg" alt="Zestaw szydełek" width="400" height="400">
+      <h3>Zestaw szydełek</h3>
+      <p>W zestawie: 6.5mm, 7.0mm, 8.0mm, 10.0mm, 12.0mm, 15.0mm.</p>
+      <a class="buy-button" onclick="dodajDoKoszyka('Zestaw szydełek', 30)">Kup za 30 zł</a>
+      <button class="add-button" onclick="dodajBezPrzekierowania('Zestaw szydełek', 30)">Dodaj do koszyka</button>
+    </div>
+
+
+    <div class="product">
+      <img src="22.jpg" alt="Sweter jasny róż" width="400" height="400">
+      <h3>Sweter jasny róż </h3>
+      <p>Ręcznie wykonany sweter, romiar M.</p>
+      <a class="buy-button" onclick="dodajDoKoszyka('Sweter jasny róż', 120)">Kup za 120 zł</a>
+      <button class="add-button" onclick="dodajBezPrzekierowania('Sweter jasny róż', 120)">Dodaj do koszyka</button>
+    </div>
+
+    <div class="product">
+      <img src="33.jpg" alt="Koc z granny squares" width="400" height="400">
+      <h3>Koc z granny squares</h3>
+      <p>koc 180 cm x 200 cm. Wykonany z wielokolorowych "granny squares"</p>
+      <a class="buy-button" onclick="dodajDoKoszyka('Koc z grnny squares', 200)">Kup za 200 zł</a>
+      <button class="add-button" onclick="dodajBezPrzekierowania('Koc z grnny squares', 200)">Dodaj do koszyka</button>
+    </div>
+
+    <div class="product">
+      <img src="44.jpg" alt="Szydełkowana torba na ramię" width="400" height="400">
+      <h3>PSzydełkowana torba na ramię</h3>
+      <p>Koc 160 cm x 120 cm. Idealny na chlodne wieczory i poranki.</p>
+      <a class="buy-button" onclick="dodajDoKoszyka('Puszysty różowy koc', 130)">Kup za 130 zł</a>
+      <button class="add-button" onclick="dodajBezPrzekierowania('Puszysty różowy koc', 130)">Dodaj do koszyka</button>
+    </div>
+
+    <div class="product">
+      <img src="55.jpg" alt="Szydełkowana torba na ramię" width="400" height="400"> 
+      <h3>Szydełkowana torba na ramię</h3>
+      <p>Idealna na noszenie książek w plenerze.</p>
+      <a class="buy-button" onclick="dodajDoKoszyka('Szydełkowana torba na ramię', 58)">Kup za 58 zł</a>
+      <button class="add-button" onclick="dodajBezPrzekierowania('Szydełkowana torba na ramię', 58)">Dodaj do koszyka</button>
+    </div>
+
+    <div class="product">
+      <img src="66.jpg" alt="Zestaw szydełek" width="400" height="400" >
+      <h3>Zestaw szydełek</h3>
+      <p>Szydełka w różnych rozmiarac, z miękkim obiciem rączki.</p>
+      <a class="buy-button" onclick="dodajDoKoszyka('Zestaw szydełek', 35)">Kup za 35 zł</a>
+      <button class="add-button" onclick="dodajBezPrzekierowania('Zestaw szydełek', 35)">Dodaj do koszyka</button>
+    </div>
+
+    <div class="product">
+      <img src="77.jpg" alt="Włóczka YarnArt Jasny brąz" width="400" height="400">
+      <h3>Włóczka YarnArt Jasny brąz </h3>
+      <p>Idealna do twoich projektów.</p>
+      <a class="buy-button" onclick="dodajDoKoszyka('Włóczka YarnArt Jasny brąz', 16)">Kup za 16 zł</a>
+      <button class="add-button" onclick="dodajBezPrzekierowania('Włóczka YarnArt Jasny brąz', 16)">Dodaj do koszyka</button>
+    </div>
+
+    <div class="product">
+      <img src="88.jpg" alt="metalowe szydełko" width="400" height="400" >
+      <h3>Metalowe szydełko</h3>
+      <p>Metalowe szydełko rozmiar 12.0mm.</p>
+      <a class="buy-button" onclick="dodajDoKoszyka('Metalowe szydełkok', 12)">Kup za 12 zł</a>
+      <button class="add-button" onclick="dodajBezPrzekierowania('Metalowe szydełko', 12)">Dodaj do koszyka</button>
+    </div>
+
+    <div class="product">
+      <img src="99.jpg" alt=" Gruby pleciony koc" width="400" height="400" >
+      <h3>Gruby pleciony koc</h3>
+      <p>Mięciutki koc pleciony 60 cm x 120 cm.</p>
+      <a class="buy-button" onclick="dodajDoKoszyka('Gruby pleciony koc', 60)">Kup za 60 zł</a>
+      <button class="add-button" onclick="dodajBezPrzekierowania('Gruby pleciony koc', 60)">Dodaj do koszyka</button>
+    </div>
+  </div>
+</div>
+
+<footer>
+
+  <div class="logo">
+    <img src="logo.png" alt="logo">
+   
+  </div>
+  
+  &copy; 2025 Sklep z Włóczkami
+</footer>
+<script>
+    function dodajProdukt(nazwa, cena) {
+      const produkt = { nazwa, cena };
+      let koszyk = JSON.parse(localStorage.getItem("koszyk")) || [];
+      koszyk.push(produkt);
+      localStorage.setItem("koszyk", JSON.stringify(koszyk));
+    }
+  
+    function kupTeraz(nazwa, cena) {
+      dodajProdukt(nazwa, cena);
+      window.location.href = "koszyk.html";
+    }
+  
+    function dodajBezPrzekierowania(nazwa, cena) {
+      dodajProdukt(nazwa, cena);
+      alert("Dodano do koszyka: " + nazwa);
+    }
+  </script>
+  
+<script>
+  function dodajDoKoszyka(nazwa, cena) {
+    const produkt = { nazwa, cena };
+    let koszyk = JSON.parse(localStorage.getItem("koszyk")) || [];
+    koszyk.push(produkt);
+    localStorage.setItem("koszyk", JSON.stringify(koszyk));
+    window.location.href = "koszyk.html";
+  }
+</script>
+
+</body>
+</html>

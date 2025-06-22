@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    }
+    
+    nav {
+    background-color: #3e4a61;
+    padding: 10px 0;
+    font-size: 25px;
+    }
+    
+    nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    }
+    
+    nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    }
+    
+    nav a:hover {
+    text-decoration: underline;
+    }
+    
+    .cart-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    font-family: ‘Segoe UI’, sans-serif;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    
+    .cart-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #212121;
+    }
+    
+    .empty-message {
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 30px;
+    }
+    
+    .clear-cart-button {
+    padding: 14px 28px;
+    background-color: #a1ddee;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    }
+    
+    .clear-cart-button:hover {
+    background-color: #757575;
+    }
+    
+    .cart-footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #bdbdbd;
+    }
+    
+    .koszyk-produkt {
+    background: #fafafa;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    }
+    
+    .koszyk-produkt button {
+    background: #c0392b;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    }
+    
+    .koszyk-produkt button:hover {
+    background: #a83222;
+    }
+    
+    .suma {
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #333;
+    }
+    
+    /* ——— Responsywność ——— */
+    @media (max-width: 600px) {
+    nav ul {
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .cart-container {
+    margin: 20px 10px;
+    padding: 20px 15px;
+    }
+    
+    .koszyk-produkt {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    }
+    
+    .suma {
+    text-align: center;
+    margin-top: 30px;
+    }
+    }

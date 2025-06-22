@@ -1,0 +1,228 @@
+/* ——— ORYGINALNE STYLE ——— */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+
+  background: #f9f9f9;
+  }
+  
+  nav {
+  background-color: #3e4a61;
+
+  font-size: 25px;
+  
+  }
+  
+  nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 20px;
+  flex-wrap: wrap;
+
+  }
+  
+  nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  }
+  
+  nav a:hover {
+  text-decoration: underline;
+  }
+  
+  .baner{
+    width: 80%;
+    height: 5%;
+    display: block;
+    margin: 0;
+    object-fit: cover;
+    padding: 0;
+  }
+  .container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  width: 100vw;
+  }
+  
+  .product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+  }
+  
+  .product {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    max-height: 600px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+  }
+  
+  .product h3 {
+  margin: 10px 0 5px;
+  }
+  
+  .buy-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #3e4a61;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  }
+  
+  .buy-button:hover {
+  background-color: #2e384d;
+  }
+  
+  footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #eee;
+  color: #666;
+  margin-top: 30px;
+  }
+  
+  .koszyk-produkt {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .koszyk-produkt button {
+  background: #c0392b;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+  
+  .koszyk-produkt button:hover {
+  background: #a83222;
+  }
+  
+  .suma {
+  text-align: right;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 20px;
+  }
+  
+  .clear-btn {
+  display: inline-block;
+  margin-top: 15px;
+  background: #888;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  }
+  
+  .clear-btn:hover {
+  background: #666;
+  }
+  
+  /* ——— MEDIA QUERIES ——— */
+  
+  @media (max-width: 900px) {
+  .product-grid {
+  grid-template-columns: repeat(2, 1fr);
+  }
+  }
+  
+  @media (max-width: 600px) {
+  nav ul {
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .product-grid {
+  grid-template-columns: 1fr;
+  padding: 0 10px;
+  }
+  
+  .suma {
+  text-align: center;
+  }
+  }
+
+
+  .button-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    }
+    
+    .buy-button,
+    .add-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    }
+    
+    .buy-button {
+    background-color: #3e4a61;
+    color: white;
+    }
+    
+    .buy-button:hover {
+    background-color: #2e384d;
+    }
+    
+    .add-button {
+    background-color: #f5f5f5;
+    color: #333;
+    border: 1px solid #ccc;
+    }
+    
+    .add-button:hover {
+    background-color: #e0e0e0;
+    }
+
+
+
+
+
+    .logo{
+     
+        width: 400px;
+        height: 400px;
+        display: block;
+        margin: 40px auto;
+        object-fit: contain;
+        justify-items: center;
+        justify-content: space-between;
+      
+    }
